@@ -69,7 +69,7 @@ function initializeMap() {
               title: "St. Bartholemew's Hospital",
               window_content: "<h1>St. Bartholemew's Hospital</h1><p>One of the latter Royal Hospitals, located just North of the City's borders, here there began an emphasis on gardens, and outdoor space for patients</p>"
             },
-            {position: new google.maps.LatLng(50.907923,142.174636),
+            {position: new google.maps.LatLng(50.907923, 142.174636),
              map: my_map,
              icon: blueURL, // this sets the image that represents the marker in the map
              title: "The Village of Aleksadrovsk",
