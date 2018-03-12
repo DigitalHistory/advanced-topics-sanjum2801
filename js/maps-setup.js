@@ -63,7 +63,7 @@ function initializeMap() {
               title: "Moscow",
               window_content: "<h1>Moscow</h1><p> insert content </p>"
              },
-             {position: new google.maps.LatLng(51.516763,-0.098675),
+             {position: new google.maps.LatLng(56.144596,40.417869),
               map: my_map,
               icon: redURL, // this sets the image that represents the marker in the map
               title: "St. Bartholemew's Hospital",
