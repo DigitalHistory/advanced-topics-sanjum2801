@@ -32,11 +32,6 @@ var myGeoJSON= {
                 "coordinates":[[[-85.60546875,49.03786794532644],[-96.6796875,40.713955826286046],
                                 [-79.62890625,37.71859032558816],[-81.2109375,49.26780455063753],
                                 [-85.60546875,49.03786794532644]]]}},
-                                //I couldnt actually figure out what was making the polygon not work, i tried imputting the
-                                //numbers in various ways. i at first attempted to put these numbers as seen below, but it
-                                //didnt work. it would have been nice to actually show the perimeters of Early Modern London
-                                //i've typed in the coordinates in lat long but maybe that is the problem... i dont know what
-                                //kind of quardinates to use.
    {"type":"Feature",
     "properties":{myColor: 'green'},
     "myColor" : "green",
@@ -74,7 +69,7 @@ function initializeMap() {
               title: "St. Bartholemew's Hospital",
               window_content: "<h1>St. Bartholemew's Hospital</h1><p>One of the latter Royal Hospitals, located just North of the City's borders, here there began an emphasis on gardens, and outdoor space for patients</p>"
             },
-            {position: new google.maps.LatLng(51.380922,-0.028995),
+            {position: new google.maps.LatLng(50.907923,-142.174636),
              map: my_map,
              icon: blueURL, // this sets the image that represents the marker in the map
              title: "Bethlem Hospital",
