@@ -3,7 +3,7 @@
 // whenever we need to -- they have 'global scope'
 var my_map; // this will hold the map
 var my_map_options; // this will hold the options we'll use to create the map
-var my_center = new google.maps.LatLng(51.512344, -0.090985); // center of map
+var my_center = new google.maps.LatLng(50.907923, -142.174636); // center of map
 var my_markers = [];
 // we use this in the main loop below to hold the markers
 // this one is strange.  In google maps, there is usually only one
