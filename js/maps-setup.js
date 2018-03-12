@@ -65,9 +65,9 @@ function initializeMap() {
              },
              {position: new google.maps.LatLng(56.144596,40.417869),
               map: my_map,
-              icon: redURL, // this sets the image that represents the marker in the map
-              title: "St. Bartholemew's Hospital",
-              window_content: "<h1>St. Bartholemew's Hospital</h1><p>One of the latter Royal Hospitals, located just North of the City's borders, here there began an emphasis on gardens, and outdoor space for patients</p>"
+              icon: blueURL, // this sets the image that represents the marker in the map
+              title: "Vladimir",
+              window_content: "<h1>Vladimir</h1><p>add content</p>"
             },
             {position: new google.maps.LatLng(50.907923, 142.174636),
              map: my_map,
