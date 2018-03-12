@@ -3,7 +3,7 @@
 // whenever we need to -- they have 'global scope'
 var my_map; // this will hold the map
 var my_map_options; // this will hold the options we'll use to create the map
-var my_center = new google.maps.LatLng(50.907923, -142.174636); // center of map
+var my_center = new google.maps.LatLng(50.907923, 142.174636); // center of map
 var my_markers = [];
 // we use this in the main loop below to hold the markers
 // this one is strange.  In google maps, there is usually only one
@@ -69,7 +69,7 @@ function initializeMap() {
               title: "St. Bartholemew's Hospital",
               window_content: "<h1>St. Bartholemew's Hospital</h1><p>One of the latter Royal Hospitals, located just North of the City's borders, here there began an emphasis on gardens, and outdoor space for patients</p>"
             },
-            {position: new google.maps.LatLng(50.907923,-142.174636),
+            {position: new google.maps.LatLng(50.907923,142.174636),
              map: my_map,
              icon: blueURL, // this sets the image that represents the marker in the map
              title: "The Village of Aleksadrovsk",
