@@ -58,26 +58,26 @@ function initializeMap() {
     var all_my_markers =
             [{position: new google.maps.LatLng(51.498802,-0.118350),
               map: my_map,
-              icon: blueURL, // this sets the image that represents the marker in the map to the one
+              icon: redURL, // this sets the image that represents the marker in the map to the one
                              // located at the URL which is given by the variable blueURL, see above
               title: "St. Thomas's Hospital",
               window_content: "<h1>St. Thomas's Hopsital</h1><p> Initially dissolved in 1530, due to King Henry VIII's Act of Supremacy that confescated all church property, separating church and state. </p>"
              },
              {position: new google.maps.LatLng(51.516763,-0.098675),
               map: my_map,
-              icon: blueURL, // this sets the image that represents the marker in the map
+              icon: redURL, // this sets the image that represents the marker in the map
               title: "St. Bartholemew's Hospital",
               window_content: "<h1>St. Bartholemew's Hospital</h1><p>One of the latter Royal Hospitals, located just North of the City's borders, here there began an emphasis on gardens, and outdoor space for patients</p>"
             },
             {position: new google.maps.LatLng(50.907923,-142.174636),
              map: my_map,
              icon: blueURL, // this sets the image that represents the marker in the map
-             title: "Bethlem Hospital",
-             window_content: "<h1>Bethlem Hospital</h1><p></p>Known as 'Bedlam' Hospital during the time, one of the only hospitals in London to treat syphilis patients during the 17th Century. One of the first Royal Hopsitals reinstated after the dissolution of the Monasteries in 1530."
+             title: "The Village of Aleksadrovsk",
+             window_content: "<h1>The Village of Aleksadrovsk</h1><p></p> insert content."
            },
            {position: new google.maps.LatLng(51.544976,-0.116053),
              map: my_map,
-             icon: blueURL, // this sets the image that represents the marker in the map to the one
+             icon: redURL, // this sets the image that represents the marker in the map to the one
                             // located at the URL which is given by the variable blueURL, see above
              title: "BrideWell Hospital and Prison",
              window_content: "<h1>BrideWell</h1><p> Both hospital and prison, solidified ideas of illness and evil and punishment for criminality or 'loose morals,' BridwWell is a testiment to the period's mentality on illness.</p>"
