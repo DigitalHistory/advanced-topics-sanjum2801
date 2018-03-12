@@ -48,7 +48,7 @@ function initializeMap() {
     my_map_options = {
         center:  my_center, // to change this value, change my_center above
         zoom: 12,  // higher is closer-up
-        mapTypeId: google.maps.MapTypeId.HYBRID // you can also use TERRAIN, STREETMAP, SATELLITE
+        mapTypeId: google.maps.MapTypeId.TERRAIN // you can also use TERRAIN, STREETMAP, SATELLITE
     };
 
     // this one line creates the actual map
