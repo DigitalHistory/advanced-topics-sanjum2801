@@ -56,12 +56,12 @@ function initializeMap() {
                                  my_map_options);
     // this is an *array* that holds all the marker info
     var all_my_markers =
-            [{position: new google.maps.LatLng(51.498802,-0.118350),
+            [{position: new google.maps.LatLng(55.755826,37.617300),
               map: my_map,
-              icon: redURL, // this sets the image that represents the marker in the map to the one
+              icon: blueURL, // this sets the image that represents the marker in the map to the one
                              // located at the URL which is given by the variable blueURL, see above
-              title: "St. Thomas's Hospital",
-              window_content: "<h1>St. Thomas's Hopsital</h1><p> Initially dissolved in 1530, due to King Henry VIII's Act of Supremacy that confescated all church property, separating church and state. </p>"
+              title: "Moscow",
+              window_content: "<h1>Moscow</h1><p> insert content </p>"
              },
              {position: new google.maps.LatLng(51.516763,-0.098675),
               map: my_map,
