@@ -118,3 +118,7 @@ div.gm-style-iw blockquote {
    padding: 10px;
 }
 
+#popcorn-container img{
+   max-width: 100%;
+   min-width: 70%;
+}
