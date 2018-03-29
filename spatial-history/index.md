@@ -11,7 +11,7 @@ are contained inside this textarea, or [your map won't work at all!][1] [1](#one
 </figure>
 It makes sense to put an introductory paragraph here, above the map and buttons. To change the bootswatch thenme, change "united" to one of the other theme names listed at [strapdownjs.com](http://strapdownjs.com/).
 
-[1]: http://hello.com
+[1]: http://en.wikipedia.org
 [^1]: This is my first footnote
 
 <a id="#one">1: </a> some text here
